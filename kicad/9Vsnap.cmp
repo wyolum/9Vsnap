@@ -1,0 +1,91 @@
+Cmp-Mod V01 Genere par PcbNew le Monday 15 June 2015 11:59:50 PM IST
+
+BeginCmp
+TimeStamp = 557F115B
+Path = /557F088B
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 557F1161
+Path = /557F0906
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 557F1167
+Path = /557F1005
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 557F1172
+Path = /557F1094
+Reference = P2;
+ValeurCmp = OUT;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 557F117D
+Path = /557F09CD
+Reference = R1;
+ValeurCmp = 240;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 557F1183
+Path = /557F0ACC
+Reference = R2;
+ValeurCmp = 390;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 557F1189
+Path = /557F0B2D
+Reference = R3;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 557F118F
+Path = /557F1056
+Reference = R4;
+ValeurCmp = R0;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 557F1195
+Path = /557F0BA5
+Reference = R5;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 557F119D
+Path = /557F083B
+Reference = U1;
+ValeurCmp = LM317EMP;
+IdModule  = SMD_Packages:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = 557F191B
+Path = /557F1DD2
+Reference = P1;
+ValeurCmp = 9V_IN;
+IdModule  = 9Vsnap:9V_clip;
+EndCmp
+
+EndListe

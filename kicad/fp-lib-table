@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name 9Vsnap)(type KiCad)(uri "$(KIPRJMOD)/libs/9Vsnap.pretty")(options "")(descr ""))
+)
