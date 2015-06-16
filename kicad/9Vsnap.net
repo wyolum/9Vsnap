@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/samata/projects-git/9Vsnap/kicad/9Vsnap.sch)
-    (date "Tuesday 16 June 2015 12:14:05 AM IST")
-    (tool "Eeschema 0.201506132246+5746~23~ubuntu14.10.1-product")
+    (source /home/anool/projects-git/9Vsnap/kicad/9Vsnap.sch)
+    (date "Tue Jun 16 13:17:33 2015")
+    (tool "Eeschema 0.201506152246+5755~23~ubuntu14.10.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title 9Vsnap)
@@ -77,11 +77,26 @@
       (tstamp 557F1094))
     (comp (ref P1)
       (value 9V_IN)
-      (footprint 9Vsnap:9V_clip)
+      (footprint 9Vsnap:9V_clip_968)
       (libsource (lib conn) (part CONN_01X02))
       (sheetpath (names /) (tstamps /))
       (tstamp 557F1DD2)))
   (libparts
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name K) (type passive))
+        (pin (num 2) (name A) (type passive))))
     (libpart (lib device) (part C)
       (description "Unpolarized capacitor")
       (footprints
@@ -111,21 +126,6 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name K) (type passive))
-        (pin (num 2) (name A) (type passive))))
     (libpart (lib device) (part R)
       (description Resistor)
       (footprints
@@ -165,10 +165,10 @@
         (pin (num 2) (name OUT) (type power_out))
         (pin (num 3) (name IN) (type input)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical regul)
       (uri /usr/share/kicad/library/regul.lib)))
   (nets

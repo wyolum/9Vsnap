@@ -25,4 +25,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
+  (model /usr/share/kicad/modules/packages3d/Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

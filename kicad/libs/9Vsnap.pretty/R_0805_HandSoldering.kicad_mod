@@ -21,4 +21,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model /usr/share/kicad/modules/packages3d/Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

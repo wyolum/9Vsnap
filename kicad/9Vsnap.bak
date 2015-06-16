@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:9Vsnap-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -232,4 +233,6 @@ F 3 "" H 3000 2550 60  0000 C CNN
 	1    3000 2550
 	-1   0    0    -1  
 $EndComp
+Text Notes 4975 4900 0    50   ~ 0
+NOTE\nfor 3V3, Short (solder bridge) R4\nfor 5V0, open R4
 $EndSCHEMATC
