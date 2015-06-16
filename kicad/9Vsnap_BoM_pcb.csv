@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"G***,G***";"OSHW_logo_notext";2;"LOGO";;;
+2;"P2";"Pin_Header_Straight_1x02";1;"OUT";;;
+3;"U1";"SOT-223";1;"LM317EMP";;;
+4;"R5,R3";"R_0805_HandSoldering";2;"330";;;
+5;"R4";"R_0805_HandSoldering";1;"R0";;;
+6;"R2";"R_0805_HandSoldering";1;"390";;;
+7;"R1";"R_0805_HandSoldering";1;"240";;;
+8;"D1";"LED-0805";1;"LED";;;
+9;"C2";"C_0805_HandSoldering";1;"1uF";;;
+10;"C1";"C_0805_HandSoldering";1;"100n";;;
+11;"P1";"9V_clip_968";1;"9V_IN";;;
